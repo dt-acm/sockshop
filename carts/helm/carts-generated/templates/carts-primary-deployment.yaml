@@ -2,11 +2,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    deployment.kubernetes.io/revision: "3"
+    deployment.kubernetes.io/revision: "5"
   creationTimestamp: "2019-12-12T14:30:28Z"
-  generation: 5
+  generation: 9
   name: carts-primary
-  resourceVersion: "995343"
+  resourceVersion: "2269775"
   selfLink: /apis/apps/v1/namespaces/sockshop-staging/deployments/carts
   uid: f169a320-1ceb-11ea-800b-42010a800204
 spec:
